@@ -43,7 +43,7 @@ const AboutUs = () => {
         <img
           src={AboutUsImg}
           alt=""
-          className="w-full rounded-2xl md:h-[70vh] brightness-50"
+          className="w-full rounded-2xl md:h-[70vh] brightness-50 object-cover"
         />
       </div>
     </section>

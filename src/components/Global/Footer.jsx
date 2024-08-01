@@ -10,7 +10,7 @@ const Footer = () => {
         <h1 className="text-white text-4xl lg:text-6xl font-bold text-center uppercase">
           let us deliver your <br /> package to its <br /> destination
         </h1>
-        <div className="w-full flex items-center justify-center gap-6">
+        <div className="w-full flex-col md:flex-row flex items-center justify-center gap-6">
           <button
             className={`${styles.bgOrange} px-8 py-4 rounded-full text-white text-sm font-semibold uppercase flex items-center justify-center gap-1`}
           >
