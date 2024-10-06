@@ -16,24 +16,24 @@ const Navbar = () => {
       <h1 className={`text-4xl font-bold ${styles.textOrange}`}>terke</h1>
 
       <div className="hidden lg:flex items-center gap-x-10">
-        <Link to="/" className="text-base font-medium text-white">
+        <a href="/" className="text-base font-medium text-white">
           Home
-        </Link>
-        <Link to="/" className="text-base font-medium text-white">
+        </a>
+        <a href="#about" className="text-base font-medium text-white">
           About
-        </Link>
-        <Link to="/" className="text-base font-medium text-white">
+        </a>
+        <a href="#services" className="text-base font-medium text-white">
           Service
-        </Link>
-        <Link to="/" className="text-base font-medium text-white">
+        </a>
+        <a href="#offices" className="text-base font-medium text-white">
           Office
-        </Link>
-        <Link
-          to="/"
+        </a>
+        <a
+          href="#contact"
           className={`${styles.bgOrange} text-white px-6 py-3 rounded-full font-medium text-sm`}
         >
           Get in touch
-        </Link>
+        </a>
       </div>
 
       <div className="flex items-center lg:hidden justify-end gap-2">
@@ -57,18 +57,18 @@ const Navbar = () => {
         onClick={handleNav}
       >
         <div className="bg-zinc-900 rounded-xl py-6 pl-6 pr-16 absolute top-16 right-4 shadow-md flex flex-col items-start gap-4 z-50">
-          <Link to="/" className="text-base font-medium text-white">
+          <a href="/" className="text-base font-medium text-white">
             Home
-          </Link>
-          <Link to="/" className="text-base font-medium text-white">
+          </a>
+          <a href="#about" className="text-base font-medium text-white">
             About
-          </Link>
-          <Link to="/" className="text-base font-medium text-white">
+          </a>
+          <a href="/#services" className="text-base font-medium text-white">
             Service
-          </Link>
-          <Link to="/" className="text-base font-medium text-white">
+          </a>
+          <a href="/#offices" className="text-base font-medium text-white">
             Office
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

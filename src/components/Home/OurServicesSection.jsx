@@ -3,7 +3,10 @@ import { styles } from "../../styles/styles";
 
 const OurServicesSection = () => {
   return (
-    <section className={`${styles.paddingX} bg-black py-6 text-white`}>
+    <section
+      className={`${styles.paddingX} bg-black py-6 text-white`}
+      id="services"
+    >
       <div className="w-full flex flex-col items-start gap-6 rounded-2xl">
         <h3 className={`${styles.textOrange} text-xl`}>Our Services</h3>
         <h1 className="text-4xl lg:text-6xl uppercase font-bold text-white">

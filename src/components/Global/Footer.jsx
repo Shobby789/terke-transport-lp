@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className={`${styles.paddingX} py-6 bg-black`}>
+    <footer className={`${styles.paddingX} py-6 bg-black`} id="contact">
       <div className="bg-zinc-950 rounded-2xl p-4 md:p-8 flex flex-col items-center gap-6">
         <h1 className="text-white text-4xl lg:text-6xl font-bold text-center uppercase">
           let us deliver your <br /> package to its <br /> destination

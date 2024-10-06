@@ -5,7 +5,7 @@ import { AboutUsImg } from "../../assets/export";
 
 const AboutUs = () => {
   return (
-    <section className={`${styles.paddingX} bg-black py-6`}>
+    <section className={`${styles.paddingX} bg-black py-6`} id="about">
       <div className="w-full flex flex-col items-start gap-6 bg-zinc-900 p-8 rounded-2xl">
         <h3 className={`${styles.textOrange} text-xl`}>About Us</h3>
         <h1 className="text-3xl md:text-4xl lg:text-6xl uppercase font-bold text-white">
